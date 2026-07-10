@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sensation.Tech</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+
+<div class="container">
+
+<a class="navbar-brand fw-bold logo" href="#">
+
+🧠 Sensation.Tech
+
+</a>
+
+<button class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<!-- 07-07-2026 -->
+
+<div class="stats">
+
+    <div>
+
+        <h2>98%</h2>
+
+        <span>Accuracy</span>
+
+    </div>
+
+    <div>
+
+        <h2>10K+</h2>
+
+        <span>Predictions</span>
+
+    </div>
+
+    <div>
+
+        <h2>24/7</h2>
+
+        <span>Monitoring</span>
+
+    </div>
+
+</div>
+
+
+
+<div class="collapse navbar-collapse"
+     id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+
+<a class="nav-link" href="#">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="#">Features</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="#">About</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="#">Login</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+
+
+
+<section class="hero-grid">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- LEFT -->
+
+            <div class="col-lg-6 hero-left">
+
+                <span class="badge-ai">
+                    AI Powered Platform
+                </span>
+
+                <h1>
+                    Smart Stress Detection
+                    <br>
+                    Using Artificial Intelligence
+                </h1>
+
+                <p>
+                    Detect stress in real-time using Eye Tracking,
+                    Eye Expressions, Breathing Analysis,
+                    Computer Vision and Machine Learning.
+                </p>
+
+                <div class="hero-btns">
+
+                    <a href="/detection" class="btn start-btn">
+
+                       Start Detection
+
+                        </a>
+
+                    <button class="learn-btn">
+                        Learn More
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT -->
+
+
+            <div class="hero-right">
+
+    <div class="eye-container">
+
+        <div class="eye">
+
+            <div class="iris">
+
+                <div class="pupil"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+            <!-- <div class="col-lg-6 hero-right">
+
+                <div class="ai-eye">
+
+                    <div class="iris"></div>
+
+                </div>
+
+            </div> -->
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="features-section py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5 fw-bold">
+            Why Choose Sensation.Tech?
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <div class="icon">👁️</div>
+
+                    <h4>Eye Tracking</h4>
+
+                    <p>
+                        Real-time gaze tracking and blink detection using AI.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <div class="icon">😊</div>
+
+                    <h4>Facial Expression</h4>
+
+                    <p>
+                        Detect emotions and facial behaviour using MediaPipe.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <div class="icon">🫁</div>
+
+                    <h4>Breathing Analysis</h4>
+
+                    <p>
+                        Estimate breathing rate directly from webcam.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="feature-card">
+
+                    <div class="icon">🧠</div>
+
+                    <h4>Stress Detection</h4>
+
+                    <p>
+                        AI predicts stress using multiple physiological signals.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<footer class="footer">
+
+    <div class="container text-center">
+
+        <h3>Sensation.Tech</h3>
+
+        <p>
+            AI Powered Stress Detection Platform
+        </p>
+
+        <hr>
+
+        <p>
+            © 2026 Sensation.Tech | Developed by Aryan Pathak
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
